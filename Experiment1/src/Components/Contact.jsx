@@ -2,8 +2,8 @@ function Contact() {
   return (
     <div>
       <h2>📞 Contact Page</h2>
-      <p>Email: jahnvi6512@gmail.com</p>
-      <p>Phone Number: 9459002416</p>
+      <p>Email: 1322sahni@gmail.com</p>
+      <p>Phone Number: 8360509093</p>
 
     </div>
   );
