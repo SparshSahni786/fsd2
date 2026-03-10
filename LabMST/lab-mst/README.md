@@ -1,16 +1,32 @@
-# React + Vite
+Question 1 – Counter Application using useState
+Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create a simple React Counter Application that:
 
-Currently, two official plugins are available:
+Displays a number on the screen
+Has two buttons: Increment and Decrement
+Updates the number when buttons are clicked
+Example Folder Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+src/ ├── components/ │ └── Counter.jsx ├── App.jsx └── main.jsx
 
-## React Compiler
+Concepts Covered
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React Functional Components
+useState Hook
+Event Handling
+Logic Explanation
 
-## Expanding the ESLint configuration
+The useState hook stores the counter value.
+When the button is clicked, the state is updated.
+React automatically re-renders the component when the state changes.
+Functionalities
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Increment the value
+Decrement the value
+UI updates dynamically
+Possible Improvements
+
+Add a Reset button
+Add validation for minimum/maximum values
+Separate logic into reusable components
